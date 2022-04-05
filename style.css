@@ -1,0 +1,7 @@
+.wrapper{
+    display: grid;
+   background-color:bisque;
+}
+.btn{
+    border: none;
+}
