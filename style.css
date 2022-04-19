@@ -4,27 +4,6 @@
   overflow-x: hidden;
 }
   
-  
-  .slides{
-    width: 500%;
-    height: 500px;
-    display: flex;
-  }
-  
-  .slides input{
-    display: none;
-  }
-  
-  .slide{
-    width: 20%;
-    transition: 2s;
-  }
-  
-  .slide img{
-    width: 50vw;
-    height: 500px;
-  }
-
 
 * {
   margin: 0;
@@ -69,14 +48,17 @@
 .menu a:hover{
     background-color: aqua;
     color: #191c32 ;
-    font-size: 1.1em;
+   padding-left: 20%;
+ 
 }
 .menu a{
     color: #ffff;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 50px;
     transition: ease-in .3s;
     font-size: 0.85em;
+    
+
 }
 
 span{
@@ -95,11 +77,9 @@ span{
  .footer-content h2{
     font-size: 3em;
     justify-content: center;
-    margin-left: 3vw;
+    
  }
- .footer-content h5{
-   font-size: 1em;
- }
+
  .social-network{
    display: flex;
    justify-content: space-evenly;
